@@ -1,0 +1,728 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.container {
+    width: 83%;
+    margin: auto;
+}
+
+.header {
+    
+    height: 420px;
+}
+
+.image-container {
+   
+    width: 100%;
+    height: 420px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.header-body-section {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.nav {
+
+    font-weight: 550;
+    height: 50px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer p {
+    padding: 5px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.zomato-logo {
+    width: 300px;
+}
+
+.container-header-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+}
+
+.header-body-content {
+    position: relative;
+    top: -50px;
+}
+
+.header-body-section-discover {
+    font-size: 40px;
+    margin: 25px 0;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+
+}
+
+.search-container {
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    max-width: 760px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: #000;
+}
+
+.location-map {
+    color: rgb(230, 139, 139);
+    font-size: 22px;
+}
+
+.caret-up {
+    color: #000;
+    ;
+}
+
+.detectionLocation input {
+    border: none;
+    font-size: 15px;
+    width: 190px;
+}
+
+.search-item {
+    color: rgb(104, 103, 103);
+    font-size: 18px;
+}
+
+.line {
+    padding: 5px;
+}
+
+.search-item input {
+    max-width: 100%;
+    width: 400px;
+    font: size 15px;
+    border: none;
+    padding: 5 10px;
+    outline: none;
+
+}
+
+/**section 1 feature***/
+.section-1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+
+}
+
+.container-feature {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.features {
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.1px solid rgb(214, 213, 213);
+}
+
+.feature-image {
+    width: 330px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.feature-image img {
+    width: 100%;
+    background-position-y: 80px;
+}
+
+.features h3,
+.features p {
+    padding-left: 20px;
+}
+
+.features:hover {
+    transition: transform 0.7s;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.section-2-left h1 {
+    font-size: 35px;
+    font-size: 600;
+    margin-top: 20px;
+}
+
+.section-2-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.section-2-left p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    
+}
+
+.section-2-top {
+    display: flex;
+    align-items: center;
+}
+
+.section-2-Right {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: red;
+}
+
+.section-2-items1 {
+    position: relative;
+    background-image: url('https://images.thequint.com/thequint/2018-04/f999c0c0-9a89-4c25-9fac-a03cf8946ffd/iStock_111861571.jpg?auto=format%2Ccompress');
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
+
+.section-2-items2 {
+    position: relative;
+    background-image: url('https://ak.jogurucdn.com/media/image/p15/media_gallery-2016-03-1-9-pasha_zomato_313ad107faffdd938b6219caa9915036.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
+
+.section-2-items3 {
+    position: relative;
+    background-image: url('https://b.zmtcdn.com/data/collections/9947b8cfe56422abae280ed1dbf3b5c8_1709812287.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
+
+.section-2-items4 {
+    position: relative;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5ca63f2565a707683c647af0/1707443021918-9CRFSC9OV92FPSO2N0YX/Untitled+design(43).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+}
+
+.section-2-items1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 250px;
+    padding-left: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.section-2-items2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 245px;
+    padding-left: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.section-2-items3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 245px;
+    padding-left: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.section-2-items4 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 245px;
+    padding-left: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    /***section-3*******/
+}
+
+.section-3 {
+    margin: 100px 0;
+    color: rgb(53, 48, 48);
+    margin-top: 30px;
+}
+
+.section-3 h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(81, 78, 78)
+}
+
+.section-3 h3 {
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 400;
+    color: black
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(49, 44, 44)
+}
+
+.section-3 p {
+    font-size: 18px;
+}
+
+.localities_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    /* background-color: red; */
+    margin-bottom: 5rem;
+}
+
+.shop-locations {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.content{
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.content span{
+    font-weight: 200;
+    font-size: 20px;
+}
+.shop-locations1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+/* */
+
+
+
+
+
+
+.e-container-download {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.e-zomato-app-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.e-image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.e-image-container img {
+    width: 300px;
+    padding-top: 90px;
+    height: auto;
+}
+
+.e-content-container {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.e-content-container h1 {
+    color: rgb(28, 28, 28);
+    margin: 0px 0px 1.5rem;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 5.6rem;
+}
+
+.e-paragraph-1 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+
+}
+
+
+.e-paragraph-2 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-size: 18px;
+    color: #a0a0a0;
+    font-weight: 400;
+}
+
+.e-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.e-input-box {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.e-input-box::placeholder {
+    font-size: 18px;
+}
+
+.e-submit-btn {
+    flex: 1;
+    padding: 10px;
+    background: rgb(239, 79, 95);
+    border-color: rgb(239, 79, 95);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    height: 60px;
+}
+
+
+.e-radio-buttons {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.e-radio-buttons label {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.e-radio-btn {
+    width: 18px;
+    height: 18px;
+    accent-color: rgb(239, 79, 95);
+}
+
+.e-download-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.e-download-img {
+    width: 170px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.explore {
+    margin: 12 auto;
+    padding: 80px;
+    background-color: #fff;
+
+}
+
+.explore-section {
+    padding: 20px;
+
+}
+
+.explore-section h2 {
+    margin: 0px 0px 2rem;
+    color: rgb(54, 54, 54);
+    font-size: 2.6rem;
+    line-height: 4rem;
+    font-weight: 600;
+}
+
+.options-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px 25px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+.option-title {
+    font-weight: 350;
+    color: rgb(28, 28, 28);
+    font-size: 27px;
+    line-height: 26px;
+    margin: 0px;
+}
+
+.arrow {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+
+
+
+/* footer */
+
+
+
+.footer {
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 2px solid #ddd; 
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px; 
+}
+
+.footer-logo img {
+    height: 37px; 
+}
+
+.footer-selections {
+    display: flex;
+    align-items: center;
+}
+
+.country-selection {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.country-selection select,
+.language-selection select {
+    padding: 5px;
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    background-color: #fff;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    appearance: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.country-selection select option {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+
+.country-selection select option span {
+    margin-left: 5px;
+}
+
+.flag-icon {
+    width: 24px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.language-selection select {
+    padding: 5px;
+    border: 1px solid #020101; 
+    border-radius: 5px;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 80px;
+    margin-right: 20px;
+}
+
+.footer-column h3 {
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 0 1.2rem;
+}
+
+.footer-column a {
+    font-size: 1rem;
+    line-height: 2.1rem;
+    color: rgb(105, 105, 105);
+    margin: 0.5rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* margin-right: 0px;  */
+}
+
+.social-icon {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px; 
+    color: #555;
+    padding: 20px 0;
+    border-top: 1px solid #ddd; 
+}
+
+.download-images {
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.download-img {
+    width: 170px;
+    height: auto;
+    margin: 5px;
+}
